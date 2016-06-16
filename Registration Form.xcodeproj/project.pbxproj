@@ -13,6 +13,7 @@
 		5270C8981CFC3B43004BDBB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5270C8961CFC3B43004BDBB7 /* Main.storyboard */; };
 		5270C89A1CFC3B43004BDBB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5270C8991CFC3B43004BDBB7 /* Assets.xcassets */; };
 		5270C89D1CFC3B43004BDBB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5270C89B1CFC3B43004BDBB7 /* LaunchScreen.storyboard */; };
+		6A758E5E1CFD233200A1CEFF /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A758E5D1CFD233200A1CEFF /* TextFieldValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5270C8991CFC3B43004BDBB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5270C89C1CFC3B43004BDBB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5270C89E1CFC3B43004BDBB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A758E5C1CFD233200A1CEFF /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
+		6A758E5D1CFD233200A1CEFF /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				5270C8911CFC3B43004BDBB7 /* AppDelegate.m */,
 				5270C8931CFC3B43004BDBB7 /* ViewController.h */,
 				5270C8941CFC3B43004BDBB7 /* ViewController.m */,
+				6A758E5C1CFD233200A1CEFF /* TextFieldValidator.h */,
+				6A758E5D1CFD233200A1CEFF /* TextFieldValidator.m */,
 				5270C8961CFC3B43004BDBB7 /* Main.storyboard */,
 				5270C8991CFC3B43004BDBB7 /* Assets.xcassets */,
 				5270C89B1CFC3B43004BDBB7 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				5270C8951CFC3B43004BDBB7 /* ViewController.m in Sources */,
 				5270C8921CFC3B43004BDBB7 /* AppDelegate.m in Sources */,
+				6A758E5E1CFD233200A1CEFF /* TextFieldValidator.m in Sources */,
 				5270C88F1CFC3B43004BDBB7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Registration Form/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.globalservices.Registration-Form";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Registration Form/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.globalservices.Registration-Form";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +308,7 @@
 				5270C8A31CFC3B43004BDBB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
